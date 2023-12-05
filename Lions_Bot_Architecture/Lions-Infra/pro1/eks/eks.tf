@@ -94,8 +94,8 @@ resource "aws_eks_node_group" "private-nodes" {
   disk_size      = 10
 
   scaling_config {
-    desired_size = 3
-    max_size     = 7
+    desired_size = 6
+    max_size     = 8
     min_size     = 1
   }
 
@@ -122,8 +122,8 @@ resource "aws_eks_node_group" "private-nodes1" {
   disk_size      = 10
 
   scaling_config {
-    desired_size = 3
-    max_size     = 7
+    desired_size = 6
+    max_size     = 8
     min_size     = 1
   }
 
